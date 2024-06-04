@@ -1,0 +1,103 @@
+/* 
+    Document   : style.css
+*/
+
+.menubar{
+    -fx-font-size: 16pt;
+    -fx-font-family: "Roboto";
+    -fx-background: rgb(0, 0, 0);
+    -fx-base: rgb(232, 232, 228);
+}
+
+.root{
+    -fx-font-size: 16pt;
+    -fx-font-family: "Courier New";
+    -fx-background: rgb(248, 237, 235);
+    -fx-base: rgb(254, 197, 187);
+}
+
+.button{
+    -fx-border-color: rgb(254, 200, 154);
+    -fx-border-radius: 5;
+    -fx-padding: 3 6 6 6;
+    -fx-text-fill: rgb(235, 156, 87);
+}
+
+.borders{
+    -fx-border-color: rgb(255, 215, 186);
+    -fx-border-style: dotted;
+    -fx-border-width: 1.5;
+    -fx-border-insets: -5;
+}
+
+.grid-pane {
+    -fx-padding: 5;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-hgap: 1; /* Horizontal gap between cells */
+    -fx-vgap: 1; /* Vertical gap between cells */
+}
+
+.grid-pane .text-field {
+    -fx-font-size: 40;
+    -fx-font-family: "Courier New";
+    -fx-max-width: 80;
+    -fx-max-height: 80;
+    -fx-min-width: 80;
+    -fx-min-height: 80;
+    -fx-border-color: lightgray; /* Default light borders for all cells */
+    -fx-border-width: 0.5; /* Thinner borders within subgrids */
+}
+
+.text-field-selected {
+    -fx-background-color: rgb(248, 141, 186);
+}
+
+.text-field-incorrect {
+    -fx-text-fill: rgb(255, 76, 76);
+}
+
+.row-highlight {
+    -fx-background-color: rgb(250, 191, 163);
+}
+
+.text-field-highlight {
+    -fx-background-color: rgb(248, 141, 186);
+}
+
+.black-square {
+    -fx-background-color: rgb(32, 32, 32);
+}
+
+.number-label {
+    -fx-font-size: 10; 
+    -fx-text-fill: black;
+    -fx-font-family: "Courier New";
+}
+
+.scroll-pane {
+    -fx-background-color: rgb(248, 237, 235);
+}
+
+.clue-label {
+    -fx-font-size: 10; 
+    -fx-text-fill: black;
+    -fx-font-family: "Courier New";
+}
+
+
+.grid-pane .right-border {
+    -fx-border-color: black;
+    -fx-border-width: 0 2 0 0;
+}
+
+.grid-pane .bottom-border {
+    -fx-border-color: black; 
+    -fx-border-width: 0 0 2 0;
+}
+
+.grid-pane .bottom-right-border {
+    -fx-border-color: black; 
+    -fx-border-width: 0 2 2 0;
+}
+  
